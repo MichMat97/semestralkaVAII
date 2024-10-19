@@ -1,0 +1,49 @@
+.logo-menu {
+    width: 50px;
+    height: 50px;
+}
+body {
+    font-family: Georama, Calibri, Tahoma, sans-serif;
+}
+
+.menu-bar {
+    width: 100%;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+
+}
+
+@media  (max-width: 700px) {
+    .menu-bar {
+        justify-content: center !important;
+    }
+    .menu-item {
+        display: flex;
+        width: 900px;
+        flex-direction: column !important;
+        justify-content: center;
+    }
+    div#lave-menu {
+        order: 1;
+    }
+    div#stredne-menu {
+        order: 3;
+    }
+    div#prave-menu {
+        order: 1;
+    }
+}
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-inner img {
+    max-height: 250px;
+    max-width: 250px;
+}
+
+.carousel-inner * {
+    color: black;
+}
